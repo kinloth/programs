@@ -1,0 +1,33 @@
+Codigo do cliente: 1	Nome: Daniel
+Codigo do produto: 1	Titulo: Senhor dos Aneis
+			Autor: fdsaf	
+			Editora: gfd	
+			Preco: 21.0
+			Quantidade adquirida: 1
+
+Valor total = 21.0
+
+Codigo do cliente: 2	Nome: Marcelo
+Codigo do produto: 1	Titulo: Senhor dos Aneis
+			Autor: fdsaf	
+			Editora: gfd	
+			Preco: 21.0
+			Quantidade adquirida: 2
+
+Valor total = 21.0
+
+Codigo do cliente: 3	Nome: Jose
+Codigo do produto: 1	Titulo: Senhor dos Aneis
+			Autor: fdsaf	
+			Editora: gfd	
+			Preco: 21.0
+			Quantidade adquirida: 1
+
+Codigo do produto: 2	Titulo: gfds
+			Autor: fsgd	
+			Editora: gsdfg	
+			Preco: 56.0
+			Quantidade adquirida: 1
+
+Valor total = 77.0
+

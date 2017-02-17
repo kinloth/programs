@@ -1,0 +1,8 @@
+6
+pid	t_chegada CPU_b prioridade  memo
+1 	10      9   1		4
+2  	0      13   1		8
+3  	0      10   1		2
+4  	0      29   1		2
+5  	0      22   1		6
+6  	0      9   1		16

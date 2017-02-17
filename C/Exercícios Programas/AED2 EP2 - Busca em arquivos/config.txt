@@ -1,0 +1,13 @@
+busca_indice
+teste1.bin esparse_index.bin dense_index.bin
+result-busc_ind-teste1.txt
+9
+753763427
+1298938
+1692741001 
+2201
+28877013
+1792702375
+666
+38209744
+478070300

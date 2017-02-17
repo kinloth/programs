@@ -1,0 +1,211 @@
+Inicio do log.
+Ultilizando First Come First Served.
+--Paginação - Com memória de 36KB e Frame de 8KB.
+
+Tempo 0
+
+(Processo 2 chegou. Novo evento na lista!)
+(Processo 3 chegou. Novo evento na lista!)
+(Processo 4 chegou. Novo evento na lista!)
+(Processo 5 chegou. Novo evento na lista!)
+(Processo 6 chegou. Novo evento na lista!)
+Processo 2 inicializado.
+(Proximo evento será : Requisitando CM).
+-------------------------------------------
+Tempo 1
+
+Processo 3 inicializado.
+(Proximo evento será : Requisitando CM).
+-------------------------------------------
+Tempo 2
+
+Processo 4 inicializado.
+(Proximo evento será : Requisitando CM).
+-------------------------------------------
+Tempo 3
+
+Processo 5 inicializado.
+(Proximo evento será : Requisitando CM).
+-------------------------------------------
+Tempo 4
+
+Processo 6 inicializado.
+(Proximo evento será : Requisitando CM).
+-------------------------------------------
+Tempo 5
+
+Processo 2 (de 1 páginas) está requisitando a CM...
+Atualmente tem 4 quadros livres.
+Processo 2 recebeu memoria central!
+(Proximo evento será : Requisitando CPU).
+-------------------------------------------
+Tempo 6
+
+Processo 3 (de 1 páginas) está requisitando a CM...
+Atualmente tem 4 quadros livres.
+Processo 3 recebeu memoria central!
+(Proximo evento será : Requisitando CPU).
+-------------------------------------------
+Tempo 7
+
+Processo 4 (de 1 páginas) está requisitando a CM...
+Atualmente tem 4 quadros livres.
+Processo 4 recebeu memoria central!
+(Proximo evento será : Requisitando CPU).
+-------------------------------------------
+Tempo 8
+
+Processo 5 (de 1 páginas) está requisitando a CM...
+Atualmente tem 4 quadros livres.
+Processo 5 recebeu memoria central!
+(Proximo evento será : Requisitando CPU).
+-------------------------------------------
+Tempo 9
+
+Processo 6 (de 2 páginas) está requisitando a CM...
+Atualmente tem 4 quadros livres.
+Processo 6 recebeu memoria central!
+(Proximo evento será : Requisitando CPU).
+-------------------------------------------
+Tempo 10
+
+(Processo 1 chegou. Novo evento na lista!)
+Processo 2 está requisitando a CPU...
+CPU livre está livre. O Processo está sendo executado.
+(Proximo evento será : Finalizar execução por termino).
+-------------------------------------------
+Tempo 11
+
+Processo 3 está requisitando a CPU...
+CPU está ocupada, processo foi adicionado na fila de espera da CPU.
+-------------------------------------------
+Tempo 12
+
+Processo 4 está requisitando a CPU...
+CPU está ocupada, processo foi adicionado na fila de espera da CPU.
+-------------------------------------------
+Tempo 13
+
+Processo 5 está requisitando a CPU...
+CPU está ocupada, processo foi adicionado na fila de espera da CPU.
+-------------------------------------------
+Tempo 14
+
+Processo 6 está requisitando a CPU...
+CPU está ocupada, processo foi adicionado na fila de espera da CPU.
+-------------------------------------------
+Tempo 15
+
+Processo 1 inicializado.
+(Proximo evento será : Requisitando CM).
+-------------------------------------------
+Tempo 16
+
+------------->> Executando FCFS ***
+...Executando processo 2 na CPU.....
+Liberando a CM...CM liberada.
+Liberando a CPU...CPU liberada.
+Retirando entrada da jobtable...Entrada retirada.
+> Processo 2 finalizado! <
+-------------------------------------------
+Tempo 17
+
+Processo 3 está requisitando a CPU...
+CPU livre está livre. O Processo está sendo executado.
+(Proximo evento será : Finalizar execução por termino).
+-------------------------------------------
+Tempo 18
+
+Processo 1 (de 1 páginas) está requisitando a CM...
+Atualmente tem 5 quadros livres.
+Processo 1 recebeu memoria central!
+(Proximo evento será : Requisitando CPU).
+-------------------------------------------
+Tempo 19
+
+------------->> Executando FCFS ***
+...Executando processo 3 na CPU.....
+Liberando a CM...CM liberada.
+Liberando a CPU...CPU liberada.
+Retirando entrada da jobtable...Entrada retirada.
+> Processo 3 finalizado! <
+-------------------------------------------
+Tempo 20
+
+Processo 4 está requisitando a CPU...
+CPU livre está livre. O Processo está sendo executado.
+(Proximo evento será : Finalizar execução por termino).
+-------------------------------------------
+Tempo 21
+
+Processo 1 está requisitando a CPU...
+CPU está ocupada, processo foi adicionado na fila de espera da CPU.
+-------------------------------------------
+Tempo 22
+
+------------->> Executando FCFS ***
+...Executando processo 4 na CPU.....
+Liberando a CM...CM liberada.
+Liberando a CPU...CPU liberada.
+Retirando entrada da jobtable...Entrada retirada.
+> Processo 4 finalizado! <
+-------------------------------------------
+Tempo 23
+
+Processo 5 está requisitando a CPU...
+CPU livre está livre. O Processo está sendo executado.
+(Proximo evento será : Finalizar execução por termino).
+-------------------------------------------
+Tempo 24
+
+------------->> Executando FCFS ***
+...Executando processo 5 na CPU.....
+Liberando a CM...CM liberada.
+Liberando a CPU...CPU liberada.
+Retirando entrada da jobtable...Entrada retirada.
+> Processo 5 finalizado! <
+-------------------------------------------
+Tempo 25
+
+Processo 6 está requisitando a CPU...
+CPU livre está livre. O Processo está sendo executado.
+(Proximo evento será : Finalizar execução por termino).
+-------------------------------------------
+Tempo 26
+
+------------->> Executando FCFS ***
+...Executando processo 6 na CPU.....
+Liberando a CM...CM liberada.
+Liberando a CPU...CPU liberada.
+Retirando entrada da jobtable...Entrada retirada.
+> Processo 6 finalizado! <
+-------------------------------------------
+Tempo 27
+
+Processo 1 está requisitando a CPU...
+CPU livre está livre. O Processo está sendo executado.
+(Proximo evento será : Finalizar execução por termino).
+-------------------------------------------
+Tempo 28
+
+------------->> Executando FCFS ***
+...Executando processo 1 na CPU.....
+Liberando a CM...CM liberada.
+Liberando a CPU...CPU liberada.
+Retirando entrada da jobtable...Entrada retirada.
+> Processo 1 finalizado! <
+-------------------------------------------
+
+Resumindo:
+
+ID, T.Chegada, Prioridade, Qnt.Páginas,T.Espera CPU,T.finalizado
+1	10	  1		1	        60	92	
+2	0	  1		1	        0	13	
+3	0	  1		1	        13	23	
+4	0	  1		1	        23	52	
+5	0	  1		1	        52	74	
+6	0	  1		2	        74	83	
+
+Tempo medio de espera = 37
+
+Termino do Programa.

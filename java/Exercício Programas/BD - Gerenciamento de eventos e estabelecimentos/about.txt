@@ -1,0 +1,6 @@
+Uma pessoa possui uma conta e uma conta pertence a uma única pessoa. Uma conta pode ser dos seguintes tipos:
+Conta de administrador(gerencia  o Banco de Dados);
+Conta de usuário(monta uma agenda eletrônica);
+Conta de dono de um serviço(cadastra o serviço);
+Conta de dono de um estabelecimento(cadastra o seu estabelecimento).
+Uma conta de usuário pode agendar varios eventos e um evento pode ser agendado por diversos usuários. Um serviço(ou estabelecimento) apenas pode ser cadastrado por um dono de serviço(ou de estabelecimento). Uma mensagem sobre um serviço(ou estabelecimento) deve ser recebida pelo dono do serviço(ou do estabelecimento). Mensagens entre usuários devem ser armazenadas.

@@ -1,0 +1,39 @@
+GIG ESCALAS 5744 39468
+#O Grafo possui 5744 vertices e 39468 arestas.
+
+BCM BCM 3 10451 GIG FCO BCM 
+#A rota mais curta passa por 3 aeroportos e percorre 10451 km
+
+VRL NAO EXISTE
+#Rota nao pode ser encontrada, nao existem caminhos.
+
+ODO ODO 5 22680 GIG IAH DME IKT ODO 
+#A rota mais curta passa por 5 aeroportos e percorre 22680 km
+
+NRT NRT 3 18757 GIG IAH NRT 
+#A rota mais curta passa por 3 aeroportos e percorre 18757 km
+
+CPH CPH 3 10192 GIG AMS CPH 
+#A rota mais curta passa por 3 aeroportos e percorre 10192 km
+
+AAA NAO EXISTE
+#Rota nao pode ser encontrada, nao existem caminhos.
+
+ZZZ NAO EXISTE
+#Rota nao pode ser encontrada, um dos aeroportos nao existe!
+
+JFK JFK 2 7730 GIG JFK 
+#A rota mais curta passa por 2 aeroportos e percorre 7730 km
+
+MAD MAD 2 8148 GIG MAD 
+#A rota mais curta passa por 2 aeroportos e percorre 8148 km
+
+DAR DAR 3 15861 GIG DXB DAR 
+#A rota mais curta passa por 3 aeroportos e percorre 15861 km
+
+MYY MYY 4 21231 GIG AMS SIN MYY 
+#A rota mais curta passa por 4 aeroportos e percorre 21231 km
+
+EBB EBB 3 15614 GIG DXB EBB 
+#A rota mais curta passa por 3 aeroportos e percorre 15614 km
+
